@@ -306,8 +306,8 @@ input[type="submit"]:hover {
 
 .hero-buttons {
     position: absolute;
-    top: 87%;
-    left: 9%;
+    top: 80%;
+    left: 8%;
     transform: translate(-50%, -50%);
 }
 
@@ -457,7 +457,7 @@ ul {
 
 /* large screens */
 
-@media (min-width: 700px) {
+@media screen and (min-width: 700px) {
     .contact-wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -783,7 +783,105 @@ footer p {
 
 /* ------------------Media Queries--------------------------- */
 
-@media screen and (max-width: 858px) {
+
+@media screen and (max-width: 1024px){
+
+    /* ---------HomePage------------- */
+.text-box h1 {
+ font-size: 90px;
+ color: #fff;
+ font-weight: 900;
+ text-transform: uppercase;
+ margin-bottom: 5px;
+ font-family: 'Raleway', sans-serif;
+}
+.text-box p {
+ font-size: 20px;
+ color: #fff;
+ padding-top: 10px;
+ font-weight: 300;
+ font-style: italic;
+}
+.hero-buttons {
+ position: absolute;
+ bottom: -3%;
+ left: 14%;
+ 
+}
+
+
+.social-links .fab {
+ font-size: 20px;
+ margin: 0 20px;
+}
+
+/*-------------- About Page --------*/
+
+
+
+.about-info h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px;
+   
+}
+
+.about-info {
+    text-align: center;
+    
+}
+
+.about-info img {
+    height: 30vh;
+}
+
+.about-info p {
+    text-align: justify;
+    padding: 0 14px;
+    font-size: 14px;
+}
+
+/* Accommodation */
+
+.hotels {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hotels p {
+    text-align: justify;
+   
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 60%;
+}
+
+.hotels h1 {
+    padding: 30px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.hotels img {
+    height: 300px;
+    text-align: center;
+}
+
+.hotel-2 img {
+    height: 280px;
+}
+
+.hotel-3 p {
+    padding-bottom: 20px;
+}
+
+
+
+}
+
+/* @media screen and (max-width: 858px) {
     .nav {
         display: flex;
         flex-direction: column;
@@ -799,7 +897,7 @@ footer p {
         top: -18%;
     }
     .nav-list {
-        margin-top: 40px;
+        margin: 40px 10px;
     }
     .hero {
         display: flex;
@@ -838,4 +936,239 @@ footer p {
     footer {
         flex-direction: column-reverse;
     }
+} */
+
+@media screen and (max-width: 768px){
+
+    /*---------- Homepage -------------*/
+    
+    
+        .text-box h1 {
+            font-size: 70px;
+            color: #fff;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .text-box p {
+            font-size: 20px;
+            color: #fff;
+            padding-top: 10px;
+            font-weight: 300;
+            font-style: italic;
+        }
+        .text-box {
+            padding-left: 100px;
+           margin-top: -200px;
+            text-align: justify;
+        }
+       
+        .hero-buttons {
+            position: absolute;
+            bottom: -20%;
+            left: 23%;
+            
+        }
+    
+        .nav-list {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 0px;
+            margin: 0 20px;
+        }
+       
+    
+        footer{
+            height: 100px;
+            flex-direction: column;
+            padding: 6px 0px;
+         }
+    
+        .form-box {
+            padding: 3px;
+        }
+        
+        .form-box input {
+            font-size: 10px;
+           
+        }
+        
+        .form-box button {
+           
+            padding: 6px;
+            font-size: 10px;
+          
+        }
+        .social-links .fab {
+            font-size: 14px;
+            margin: 0 20px;
+        }
+
+        /* About Page */
+
+        .about{
+            height: 100%;
+        }
+
+        about-info h1 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+            padding: 20px;
+           
+        }
+        
+        .about-info {
+            text-align: center;
+            
+        }
+        
+        .about-info img {
+            height: 38vh;
+        }
+        
+        .about-info p {
+            text-align: center;
+            text-align: justify;
+          
+            font-size: 14px;
+        }
+        
+    
+    }
+@media screen and (max-width: 375px){
+
+    /*---------- Homepage -------------*/
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .nav-logo img {
+        height: 70px;
+        text-align: center;
+    }
+    .nav-logo {
+        position: absolute;
+        top: -18%;
+    }
+   
+
+    .list-item{
+        margin-top: 50px;
+       padding: 0 12px;
+    }
+   
+    .text-box h1 {
+            font-size: 40px;
+            color: #fff;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .text-box p {
+            font-size: 14px;
+            color: #fff;
+            padding-top: 10px;
+            font-weight: 300;
+            font-style: italic;
+        }
+        .text-box {
+            padding-left: 20px;
+          margin-top: 20px;
+            text-align: justify;
+        }
+       
+        .hero-buttons {
+            position: absolute;
+            bottom: -4%;
+            left: 25%;
+            
+        }
+    
+        .nav-list {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 0px;
+            margin: 0 20px;
+        }
+       
+    
+        footer{
+        
+            flex-direction: column;
+            padding: 8px 0px;
+             height: 100%;
+         }
+   
+     
+        .social-links .fab {
+            font-size: 14px;
+            margin: 0 20px;
+        }
+
+
+.sub{
+    font-size: 7px;
 }
+        
+        .form-box {
+            padding: 2px;
+        }
+        
+        .form-box input {
+            font-size: 7px;
+           
+        }
+        
+        .form-box button {
+           
+            padding: 6px;
+            font-size: 7px;
+          
+        }
+        .social-links .fab {
+            font-size: 12px;
+            margin: 10px 10px;
+        }
+
+
+         /* About Page */
+
+         .about{
+            height: 100%;
+        }
+
+        about-info h1 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 600;
+            padding: 20px;
+           
+        }
+        
+        .about-info {
+            text-align: center;
+            
+        }
+        
+        .about-info img {
+            height: 24vh;
+        }
+        
+        .about-info p {
+           
+            text-align: justify;
+          
+            font-size: 14px;
+        }
+
+    
+         }
+    
+
