@@ -428,7 +428,7 @@ ul {
 #contact-info form textarea {
     width: 100%;
     padding: 16px;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid #fff
 }
 
 #contact-info button {
@@ -457,7 +457,7 @@ ul {
 
 /* large screens */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
     .contact-wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -815,7 +815,7 @@ footer p {
  margin: 0 20px;
 }
 
-/*-------------- About Page --------*/
+/*-------------- About Page--------- --------*/
 
 
 
@@ -842,7 +842,7 @@ footer p {
     font-size: 14px;
 }
 
-/* Accommodation */
+/* ---------------Accommodation -----------*/
 
 .hotels {
     text-align: center;
@@ -855,7 +855,6 @@ footer p {
     padding-top: 20px;
     font-weight: 400;
     font-size: 14px;
-    width: 60%;
 }
 
 .hotels h1 {
@@ -877,66 +876,22 @@ footer p {
     padding-bottom: 20px;
 }
 
+/*-----------Attractions Page-------- */
+.att-wrapper {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+
 
 
 }
 
-/* @media screen and (max-width: 858px) {
-    .nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
-    .nav-logo img {
-        height: 80px;
-        text-align: center;
-    }
-    .nav-logo {
-        position: absolute;
-        top: -18%;
-    }
-    .nav-list {
-        margin: 40px 10px;
-    }
-    .hero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .text-box h1 {
-        font-size: 80px;
-        color: #fff;
-        font-weight: 900;
-        text-transform: uppercase;
-        margin-bottom: 5px;
-        font-family: 'Raleway', sans-serif;
-    }
-    .text-box p {
-        font-size: 20px;
-        color: #fff;
-        padding-top: 10px;
-        font-weight: 300;
-        font-style: italic;
-    }
-    .hero-buttons {
-        position: absolute;
-        bottom: 3%;
-        left: 36%;
-        transform: translate(-50%, -50%);
-    }
-    .att-wrapper {
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1em;
-        cursor: pointer;
-        padding: 0 10px;
-    }
-    footer {
-        flex-direction: column-reverse;
-    }
-} */
+
 
 @media screen and (max-width: 768px){
 
@@ -1035,6 +990,74 @@ footer p {
           
             font-size: 14px;
         }
+
+        /* -------------Accommodation --------------*/
+
+.hotels {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hotels p {
+    text-align: justify;
+   
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hotels h1 {
+    padding: 30px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.hotels img {
+    height: 300px;
+    text-align: center;
+}
+
+.hotel-2 img {
+    height: 280px;
+}
+
+.hotel-3 p {
+    padding-bottom: 20px;
+}
+
+/* ------------Contact ---------*/
+
+
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .contact-wrapper>* {
+        padding: 32px;
+    }
+    .company-info h3,
+    .company-info ul,
+    .contact-logo {
+        text-align: center;
+    }
+
+   
+
+
+
+/* -------FAQs page ----------------*/
+
+
+.questions h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+
+
+
         
     
     }
@@ -1168,6 +1191,118 @@ footer p {
             font-size: 14px;
         }
 
+        /* Accommodation */
+
+.hotels {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hotels p {
+    text-align: justify;
+   
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hotels h1 {
+    padding: 30px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.hotels img {
+    height: 180px;
+    text-align: center;
+}
+
+.hotel-2 img {
+    height: 240px;
+}
+
+.hotel-3 p {
+    padding-bottom: 20px;
+}
+
+
+/* Attracitons Page */
+
+.attractions h1 {
+    font-size: 40px;
+  
+}
+
+.att-wrapper {
+ 
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+.att-wrapper img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(90, 72, 72);
+}
+
+.att-box {
+    text-align: center;
+    border-radius: 7px;
+    height: 100%;
+    color: #fff;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(rgba(41, 50, 65, 0.3), rgb(18, 151, 129));
+    opacity: 0;
+    transition: 1s;
+}
+
+.att-desc h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.att-desc p {
+    padding-top: 40px;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0 20px;
+}
+
+/* Faqs page */
+   
+.questions {
+    height: 100%;
+}
+
+.questions h1 {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.question-1,
+.question-2,
+.question-3 p {
+    font-size: 14px;
+    
+}
+
+
+    
+
+    
+  
     
          }
     
