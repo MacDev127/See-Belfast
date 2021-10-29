@@ -484,7 +484,7 @@ ul {
     background: #CBF3F0;
 }
 
-.banner h1 {
+.attractions h1 {
     text-align: center;
     padding-top: 80px;
     font-size: 50px;
@@ -494,7 +494,7 @@ ul {
     letter-spacing: 1px;
 }
 
-.work {
+.att-wrapper {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -503,7 +503,7 @@ ul {
     padding: 0 10px;
 }
 
-.work img {
+.att-wrapper img {
     height: 300px;
     object-fit: cover;
     width: 100%;
@@ -511,7 +511,7 @@ ul {
     box-shadow: 0 0 10px rgb(90, 72, 72);
 }
 
-.single-service {
+.att-box {
     text-align: center;
     border-radius: 7px;
     height: 100%;
@@ -531,28 +531,28 @@ ul {
     transition: 1s;
 }
 
-.work-desc h3 {
+.att-desc h3 {
     font-weight: 400;
     font-size: 50px;
 }
 
-.work-desc p {
+.att-desc p {
     padding-top: 40px;
     font-size: 14px;
     text-align: justify;
     margin: 0 20px;
 }
 
-.single-service:hover .overlay {
+.att-box:hover .overlay {
     opacity: 1;
 }
 
-.single-service:hover .work-desc {
+.att-box:hover .att-desc {
     bottom: 20%;
     opacity: 1;
 }
 
-.work-desc {
+.att-desc {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -690,7 +690,7 @@ ul {
 .question-1,
 .question-2,
 .question-3 p {
-    margin: 10px 50px;
+    margin: 20px 50px;
     font-size: 20px;
 }
 
@@ -735,13 +735,17 @@ footer p {
 
 .box {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
-.box p {
-    font-size: 12px;
-    text-align: center;
-    padding-bottom: 10px;
+.sub{
+    margin-right: 15px;
 }
+
+
 
 .form-box {
     padding: 5px;
@@ -823,7 +827,7 @@ footer p {
         left: 36%;
         transform: translate(-50%, -50%);
     }
-    .work {
+    .att-wrapper {
         margin-top: 100px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
