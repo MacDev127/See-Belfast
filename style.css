@@ -306,8 +306,8 @@ input[type="submit"]:hover {
 
 .hero-buttons {
     position: absolute;
-    top: 80%;
-    left: 8%;
+    top: 83%;
+    left: 9%;
     transform: translate(-50%, -50%);
 }
 
@@ -738,14 +738,11 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
-.sub{
-    margin-right: 15px;
+.sub {
+    padding-right: 12px;
 }
-
-
 
 .form-box {
     padding: 5px;
@@ -783,252 +780,188 @@ footer p {
 
 /* ------------------Media Queries--------------------------- */
 
-
-@media screen and (max-width: 1024px){
-
+@media screen and (max-width: 1024px) {
     /* ---------HomePage------------- */
-.text-box h1 {
- font-size: 90px;
- color: #fff;
- font-weight: 900;
- text-transform: uppercase;
- margin-bottom: 5px;
- font-family: 'Raleway', sans-serif;
-}
-.text-box p {
- font-size: 20px;
- color: #fff;
- padding-top: 10px;
- font-weight: 300;
- font-style: italic;
-}
-.hero-buttons {
- position: absolute;
- bottom: -3%;
- left: 14%;
- 
-}
-
-
-.social-links .fab {
- font-size: 20px;
- margin: 0 20px;
-}
-
-/*-------------- About Page--------- --------*/
-
-
-
-.about-info h1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-    padding: 20px;
-   
-}
-
-.about-info {
-    text-align: center;
-    
-}
-
-.about-info img {
-    height: 30vh;
-}
-
-.about-info p {
-    text-align: justify;
-    padding: 0 14px;
-    font-size: 14px;
-}
-
-/* ---------------Accommodation -----------*/
-
-.hotels {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.hotels p {
-    text-align: justify;
-   
-    padding-top: 20px;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.hotels h1 {
-    padding: 30px;
-    font-weight: 800;
-    font-size: 40px;
-}
-
-.hotels img {
-    height: 300px;
-    text-align: center;
+    .text-box h1 {
+        font-size: 90px;
+        color: #fff;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-box p {
+        font-size: 20px;
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .hero-buttons {
+        position: absolute;
+        bottom: -3%;
+        left: 14%;
+    }
+    .social-links .fab {
+        font-size: 20px;
+        margin: 0 20px;
+    }
+    /*-------------- About Page--------- --------*/
+    .about-info h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .about-info {
+        text-align: center;
+    }
+    .about-info img {
+        height: 30vh;
+    }
+    .about-info p {
+        text-align: justify;
+        padding: 0 14px;
+        font-size: 14px;
+    }
+    /* ---------------Accommodation -----------*/
+    .hotels {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hotels p {
+        text-align: justify;
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .hotels h1 {
+        padding: 30px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .hotels img {
+        height: 300px;
+        text-align: center;
+    }
+    .hotel-2 img {
+        height: 280px;
+    }
+    .hotel-3 p {
+        padding-bottom: 20px;
+    }
+    /*-----------Attractions Page-------- */
+    .att-wrapper {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+        cursor: pointer;
+        padding: 0 10px;
+    }
 }
 
-.hotel-2 img {
-    height: 280px;
-}
-
-.hotel-3 p {
-    padding-bottom: 20px;
-}
-
-/*-----------Attractions Page-------- */
-.att-wrapper {
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1em;
-    cursor: pointer;
-    padding: 0 10px;
-}
-
-
-
-
-}
-
-
-
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
     /*---------- Homepage -------------*/
-    
-    
-        .text-box h1 {
-            font-size: 70px;
-            color: #fff;
-            font-weight: 900;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-            font-family: 'Raleway', sans-serif;
-        }
-        .text-box p {
-            font-size: 20px;
-            color: #fff;
-            padding-top: 10px;
-            font-weight: 300;
-            font-style: italic;
-        }
-        .text-box {
-            padding-left: 100px;
-           margin-top: -200px;
-            text-align: justify;
-        }
-       
-        .hero-buttons {
-            position: absolute;
-            bottom: -20%;
-            left: 23%;
-            
-        }
-    
-        .nav-list {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            gap: 0px;
-            margin: 0 20px;
-        }
-       
-    
-        footer{
-            height: 100px;
-            flex-direction: column;
-            padding: 6px 0px;
-         }
-    
-        .form-box {
-            padding: 3px;
-        }
-        
-        .form-box input {
-            font-size: 10px;
-           
-        }
-        
-        .form-box button {
-           
-            padding: 6px;
-            font-size: 10px;
-          
-        }
-        .social-links .fab {
-            font-size: 14px;
-            margin: 0 20px;
-        }
-
-        /* About Page */
-
-        .about{
-            height: 100%;
-        }
-
-        about-info h1 {
-            text-align: center;
-            font-size: 50px;
-            font-weight: 600;
-            padding: 20px;
-           
-        }
-        
-        .about-info {
-            text-align: center;
-            
-        }
-        
-        .about-info img {
-            height: 38vh;
-        }
-        
-        .about-info p {
-            text-align: center;
-            text-align: justify;
-          
-            font-size: 14px;
-        }
-
-        /* -------------Accommodation --------------*/
-
-.hotels {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.hotels p {
-    text-align: justify;
-   
-    padding-top: 20px;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.hotels h1 {
-    padding: 30px;
-    font-weight: 800;
-    font-size: 40px;
-}
-
-.hotels img {
-    height: 300px;
-    text-align: center;
-}
-
-.hotel-2 img {
-    height: 280px;
-}
-
-.hotel-3 p {
-    padding-bottom: 20px;
-}
-
-/* ------------Contact ---------*/
-
-
-
+    .text-box h1 {
+        font-size: 70px;
+        color: #fff;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-box p {
+        font-size: 20px;
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .text-box {
+        padding-left: 100px;
+        margin-top: -200px;
+        text-align: justify;
+    }
+    .hero-buttons {
+        position: absolute;
+        bottom: -20%;
+        left: 23%;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0px;
+        margin: 0 20px;
+    }
+    footer {
+        height: 100px;
+        flex-direction: column;
+        padding: 6px 0px;
+    }
+    .form-box {
+        padding: 3px;
+    }
+    .form-box input {
+        font-size: 10px;
+    }
+    .form-box button {
+        padding: 6px;
+        font-size: 10px;
+    }
+    .social-links .fab {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    /* About Page */
+    .about {
+        height: 100%;
+    }
+    about-info h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .about-info {
+        text-align: center;
+    }
+    .about-info img {
+        height: 38vh;
+    }
+    .about-info p {
+        text-align: center;
+        text-align: justify;
+        font-size: 14px;
+    }
+    /* -------------Accommodation --------------*/
+    .hotels {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hotels p {
+        text-align: justify;
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .hotels h1 {
+        padding: 30px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .hotels img {
+        height: 300px;
+        text-align: center;
+    }
+    .hotel-2 img {
+        height: 280px;
+    }
+    .hotel-3 p {
+        padding-bottom: 20px;
+    }
+    /* ------------Contact ---------*/
     .contact-wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -1041,28 +974,15 @@ footer p {
     .contact-logo {
         text-align: center;
     }
-
-   
-
-
-
-/* -------FAQs page ----------------*/
-
-
-.questions h1 {
-    text-align: center;
-    font-size: 30px;
-    margin: 30px;
+    /* -------FAQs page ----------------*/
+    .questions h1 {
+        text-align: center;
+        font-size: 30px;
+        margin: 30px;
+    }
 }
 
-
-
-
-        
-    
-    }
-@media screen and (max-width: 375px){
-
+@media screen and (max-width: 375px) {
     /*---------- Homepage -------------*/
     .nav {
         display: flex;
@@ -1078,232 +998,168 @@ footer p {
         position: absolute;
         top: -18%;
     }
-   
-
-    .list-item{
+    .list-item {
         margin-top: 50px;
-       padding: 0 12px;
+        padding: 0 12px;
     }
-   
     .text-box h1 {
-            font-size: 40px;
-            color: #fff;
-            font-weight: 900;
-            text-transform: uppercase;
-            margin-bottom: 5px;
-            font-family: 'Raleway', sans-serif;
-        }
-        .text-box p {
-            font-size: 14px;
-            color: #fff;
-            padding-top: 10px;
-            font-weight: 300;
-            font-style: italic;
-        }
-        .text-box {
-            padding-left: 20px;
-          margin-top: 20px;
-            text-align: justify;
-        }
-       
-        .hero-buttons {
-            position: absolute;
-            bottom: -4%;
-            left: 25%;
-            
-        }
-    
-        .nav-list {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            gap: 0px;
-            margin: 0 20px;
-        }
-       
-    
-        footer{
-        
-            flex-direction: column;
-            padding: 8px 0px;
-             height: 100%;
-         }
-   
-     
-        .social-links .fab {
-            font-size: 14px;
-            margin: 0 20px;
-        }
-
-
-.sub{
-    font-size: 7px;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .text-box p {
+        font-size: 14px;
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .text-box {
+        padding-left: 20px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .hero-buttons {
+        position: absolute;
+        bottom: -4%;
+        left: 25%;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0px;
+        margin: 0 20px;
+    }
+    footer {
+        flex-direction: column;
+        padding: 8px 0px;
+        height: 100%;
+    }
+    .social-links .fab {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    .sub {
+        font-size: 7px;
+    }
+    .form-box {
+        padding: 2px;
+    }
+    .form-box input {
+        font-size: 7px;
+    }
+    .form-box button {
+        padding: 6px;
+        font-size: 7px;
+    }
+    .social-links .fab {
+        font-size: 12px;
+        margin: 10px 10px;
+    }
+    /* About Page */
+    .about {
+        height: 100%;
+    }
+    about-info h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .about-info {
+        text-align: center;
+    }
+    .about-info img {
+        height: 24vh;
+    }
+    .about-info p {
+        text-align: justify;
+        font-size: 14px;
+    }
+    /* Accommodation */
+    .hotels {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hotels p {
+        text-align: justify;
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .hotels h1 {
+        padding: 30px;
+        font-weight: 800;
+        font-size: 30px;
+    }
+    .hotels img {
+        height: 180px;
+        text-align: center;
+    }
+    .hotel-2 img {
+        height: 240px;
+    }
+    .hotel-3 p {
+        padding-bottom: 20px;
+    }
+    /* Attracitons Page */
+    .attractions h1 {
+        font-size: 40px;
+    }
+    .att-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .att-wrapper img {
+        height: 300px;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgb(90, 72, 72);
+    }
+    .att-box {
+        text-align: center;
+        border-radius: 7px;
+        height: 100%;
+        color: #fff;
+        position: relative;
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        background: linear-gradient(rgba(41, 50, 65, 0.3), rgb(18, 151, 129));
+        opacity: 0;
+        transition: 1s;
+    }
+    .att-desc h3 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .att-desc p {
+        padding-top: 40px;
+        font-size: 14px;
+        text-align: justify;
+        margin: 0 20px;
+    }
+    /* Faqs page */
+    .questions {
+        height: 100%;
+    }
+    .questions h1 {
+        text-align: center;
+        font-size: 18px;
+        margin: 30px;
+    }
+    .question-1,
+    .question-2,
+    .question-3 p {
+        font-size: 14px;
+    }
 }
-        
-        .form-box {
-            padding: 2px;
-        }
-        
-        .form-box input {
-            font-size: 7px;
-           
-        }
-        
-        .form-box button {
-           
-            padding: 6px;
-            font-size: 7px;
-          
-        }
-        .social-links .fab {
-            font-size: 12px;
-            margin: 10px 10px;
-        }
-
-
-         /* About Page */
-
-         .about{
-            height: 100%;
-        }
-
-        about-info h1 {
-            text-align: center;
-            font-size: 50px;
-            font-weight: 600;
-            padding: 20px;
-           
-        }
-        
-        .about-info {
-            text-align: center;
-            
-        }
-        
-        .about-info img {
-            height: 24vh;
-        }
-        
-        .about-info p {
-           
-            text-align: justify;
-          
-            font-size: 14px;
-        }
-
-        /* Accommodation */
-
-.hotels {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.hotels p {
-    text-align: justify;
-   
-    padding-top: 20px;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.hotels h1 {
-    padding: 30px;
-    font-weight: 800;
-    font-size: 30px;
-}
-
-.hotels img {
-    height: 180px;
-    text-align: center;
-}
-
-.hotel-2 img {
-    height: 240px;
-}
-
-.hotel-3 p {
-    padding-bottom: 20px;
-}
-
-
-/* Attracitons Page */
-
-.attractions h1 {
-    font-size: 40px;
-  
-}
-
-.att-wrapper {
- 
-    grid-template-columns: repeat(1, 1fr);
-   
-}
-
-.att-wrapper img {
-    height: 300px;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgb(90, 72, 72);
-}
-
-.att-box {
-    text-align: center;
-    border-radius: 7px;
-    height: 100%;
-    color: #fff;
-    position: relative;
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    background: linear-gradient(rgba(41, 50, 65, 0.3), rgb(18, 151, 129));
-    opacity: 0;
-    transition: 1s;
-}
-
-.att-desc h3 {
-    font-weight: 400;
-    font-size: 30px;
-}
-
-.att-desc p {
-    padding-top: 40px;
-    font-size: 14px;
-    text-align: justify;
-    margin: 0 20px;
-}
-
-/* Faqs page */
-   
-.questions {
-    height: 100%;
-}
-
-.questions h1 {
-    text-align: center;
-    font-size: 18px;
-    margin: 30px;
-}
-
-.question-1,
-.question-2,
-.question-3 p {
-    font-size: 14px;
-    
-}
-
-
-    
-
-    
-  
-    
-         }
-    
-
